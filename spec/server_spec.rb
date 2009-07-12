@@ -4,5 +4,6 @@ describe 'Server' do
   it "should get home page" do
     get '/'
     last_response.should be_ok
+    assert last_response.body.include?('Hullo')
   end
 end
