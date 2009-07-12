@@ -1,6 +1,6 @@
 Simple Sinatra and RSpec example.
 
-Use `rake spec` or `autospec`.
+Use `ruby server.rb` to run, `rake spec` or `autospec` to test.
 
 Built with: 
 
